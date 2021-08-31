@@ -14,19 +14,19 @@
 
 ### Client
 
-- The client is a TypeScript + React Native Expo application styled with UI Kitten Components hosted as unlisted on Expo.
+- The client is a [TypeScript](https://www.typescriptlang.org/) + [React Native Expo](https://expo.dev/) application styled with [UI Kitten](https://akveo.github.io/react-native-ui-kitten/) Components hosted as unlisted on Expo.
 
-- AsyncStorage is used to store the logged in user's JWT token coming from the Apollo GraphQL Client's requests to the GraphQL API.
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/) is used to store the logged in user's [JWT token](https://jwt.io/) coming from the [Apollo GraphQL Client's](https://www.apollographql.com/docs/react) requests to the [GraphQL](https://graphql.org/) API.
 
-- Routing is handled with React Router Native along with theming coming from Eva's design system.
+- Routing is handled with [React Router Native](https://reactrouter.com/native) along with theming coming from [Eva's design](https://colors.eva.design/) system.
 
 ### Server
 
-- The server is a TypeScript + Node Apollo GraphQL server hosted on an Amazon EC2 instance and MySQL RDS Database Instance.
+- The server is a [TypeScript](https://www.typescriptlang.org/) + [Node](https://nodejs.org/en/) [Apollo GraphQL Server](https://www.apollographql.com/docs/apollo-server/) hosted on an AWS [EC2](https://aws.amazon.com/ec2/) instance and [MySQL RDS](https://aws.amazon.com/rds/) Database Instance.
 
-- Prisma acts as the ORM to fetch task and user data along with jsonwebtoken generating jwts to authenticate and authorize user requests
+- [Prisma](https://www.prisma.io/) is the ORM to fetch task and user data along with [jsonwebtoken](https://www.npmjs.com/package//jsonwebtoken) generating [JWT's](https://jwt.io/) to authenticate and authorize user requests
 
-- Passwords are hashed with bcrypt and authentication is handled with JWT's while requests are tested with Jest
+- Passwords are hashed with [bcrypt](https://www.npmjs.com/package/bcryptjs) and authentication is handled with [JWT's](https://jwt.io/) while requests are tested with [Jest](https://jestjs.io/)
 
 ## Future Plans
 
