@@ -10,6 +10,8 @@
 
 - The project is currently in the MVP stage and will be released in the near future publicly on the Google Playstore and Expo!
 
+Current Screens (Images are too large for README) : [https://imgur.com/a/6vWeJJY](https://imgur.com/a/6vWeJJY)
+
 ## Tech Stack
 
 ### Client
